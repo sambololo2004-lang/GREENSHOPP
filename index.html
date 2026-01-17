@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="uk">
   <head>
     <meta charset="UTF-8" />
@@ -15,26 +15,45 @@
         </div>
 
         <nav class="nav">
-          <a href="#" class="nav-item nav-item--active">Home</a>
-          <a href="#" class="nav-item">Shop</a>
+          <ul class="nav-list">
+            <li class="nav-li">
+              <a href="#" class="nav-item nav-item--active">Home</a>
+            </li>
 
-          <div class="nav-drop">
-            <a href="#" class="nav-item">Plant Care</a>
+            <li class="nav-li">
+              <a href="#" class="nav-item">Shop</a>
+            </li>
+            <li class="nav-li has-drop">
+              <a href="#" class="nav-item">Plant Care</a>
 
-            <div class="drop-menu">
-              <a href="#" class="drop-link">Drainage</a>
-              <a href="#" class="drop-link">Fungicides</a>
-              <a href="#" class="drop-link">Fertilizer</a>
+              <ul class="drop-menu drop-menu--two-col">
+                <li><a href="#" class="drop-link">Drainage</a></li>
+                <li><a href="#" class="drop-link">Fungicides</a></li>
+                <li><a href="#" class="drop-link">Fertilizer</a></li>
 
-              <div class="drop-sub">
-                <a href="#" class="drop-link drop-link--arrow">
-                  Priming <span class="arrow">›</span>
-                </a>
-              </div>
-            </div>
-          </div>
+                <li class="has-sub">
+                  <a href="#" class="drop-link drop-link--arrow">
+                    Priming <span class="arrow">›</span>
+                  </a>
 
-          <a href="#" class="nav-item">Blogs</a>
+                  <ul class="sub-menu">
+                    <li><a href="#" class="drop-link">Universal</a></li>
+                    <li><a href="#" class="drop-link">For Ficus</a></li>
+                    <li><a href="#" class="drop-link">For Cacti</a></li>
+                    <li><a href="#" class="drop-link">For Citrus</a></li>
+                    <li>
+                      <a href="#" class="drop-link">For those in bloom</a>
+                    </li>
+                    <li><a href="#" class="drop-link">For Orchids</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-li">
+              <a href="#" class="nav-item">Blogs</a>
+            </li>
+          </ul>
         </nav>
 
         <a href="#" class="login-btn">Login</a>
@@ -55,8 +74,8 @@
         </div>
 
         <div class="hero-image">
-          <img src="images/01 1.svg" alt="Big plant" class="hero-img" />
-          <img src="images/01 2.svg" alt="Small plant" class="hero-img-small" />
+          <img src="images/01-1.svg" alt="Big plant" class="hero-img" />
+          <img src="images/01-2.svg" alt="Small plant" class="hero-img-small" />
         </div>
       </div>
     </section>
