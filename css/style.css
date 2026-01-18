@@ -1,0 +1,300 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #3d3d3d;
+    background: #ffffff;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.gs-prefooter {
+    background: #fbfbfb;
+    padding: 30px 0;
+}
+
+.gs-prefooter__wrap {
+    display: flex;
+    gap: 30px;
+    background: #ffffff;
+    border: 1px solid #efefef;
+    border-radius: 8px;
+    padding: 25px 30px;
+}
+
+.gs-features {
+    display: flex;
+    gap: 30px;
+    flex: 1 1 auto;
+}
+
+.gs-feature {
+    flex: 1 1 0;
+    padding-right: 10px;
+    border-right: 1px solid #f0f0f0;
+}
+
+.gs-feature:last-child {
+    border-right: none;
+}
+
+.gs-feature__icon {
+    width: 74px;
+    height: 74px;
+    border-radius: 50%;
+    background-color: #eef7ef;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 46px 46px;
+    margin-bottom: 15px;
+}
+
+.gs-feature__title {
+    margin: 0 0 8px 0;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.gs-feature__text {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.55;
+    color: #727272;
+    max-width: 260px;
+}
+
+
+.gs-feature__icon--garden {
+    background-image: url("../images/Picture.svg");
+}
+
+.gs-feature__icon--renovation {
+    background-image: url("../images/Picture1.svg");
+}
+
+.gs-feature__icon--watering {
+    background-image: url("../images/Picture2.svg");
+}
+
+.gs-newsletter {
+    width: 370px;
+    flex: 0 0 370px;
+}
+
+.gs-newsletter__title {
+    margin: 0 0 16px 0;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.gs-newsletter__form {
+    display: flex;
+    height: 40px;
+    margin-bottom: 18px;
+}
+
+.gs-newsletter__input {
+    flex: 1 1 auto;
+    border: 1px solid #eaeaea;
+    border-right: none;
+    border-radius: 6px 0 0 6px;
+    padding: 0 14px;
+    font-size: 14px;
+    outline: none;
+}
+
+.gs-newsletter__btn {
+    width: 85px;
+    border: none;
+    border-radius: 0 6px 6px 0;
+    background: #46a358;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.gs-newsletter__text {
+    margin: 0;
+    font-size: 13px;
+    line-height: 1.6;
+    color: #727272;
+}
+
+.gs-footer {
+    background: #ffffff;
+    padding-bottom: 20px;
+}
+
+.gs-footer__bar {
+    margin-top: 18px;
+    padding: 18px 22px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background: linear-gradient(90deg, #d7f5dc 0%, #46a358 100%);
+}
+
+.gs-footer__brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.gs-footer__logo {
+    display: block;
+    height: 28px;
+}
+
+.gs-footer__contacts {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.gs-contact {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: #2f2f2f;
+    font-size: 14px;
+    max-width: 280px;
+}
+
+.gs-contact__icon {
+    width: 20px;
+    height: 20px;
+    flex: 0 0 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 18px 18px;
+    opacity: .9;
+}
+
+/* поставь свои файлы */
+.gs-contact__icon--loc {
+    background-image: url("../images/Icon.svg");
+}
+
+.gs-contact__icon--mail {
+    background-image: url("../images/Icon-1.svg");
+}
+
+.gs-contact__icon--phone {
+    background-image: url("../images/Icon-2.svg");
+}
+.gs-footer__main {
+    display: flex;
+    gap: 50px;
+    padding: 28px 0;
+    border-bottom: 1px solid #efefef;
+}
+
+.gs-col {
+    flex: 1 1 0;
+}
+
+.gs-col--right {
+    flex: 1.2 1.2 0;
+}
+
+.gs-col__title {
+    margin: 0 0 12px 0;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.gs-col__title--mt {
+    margin-top: 18px;
+}
+
+.gs-col__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.gs-col__item {
+    font-size: 14px;
+    color: #727272;
+    margin: 9px 0;
+}
+
+.gs-social {
+    display: flex;
+    gap: 10px;
+}
+
+.gs-social__icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+    border: 1px solid rgba(70, 163, 88, .25);
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 16px 16px;
+}
+
+/* поставь свои файлы */
+.gs-social__icon--fb {
+    background-image: url("../images/Facebook.svg");
+}
+
+.gs-social__icon--ig {
+    background-image: url("../images/Instagram.svg");
+}
+
+.gs-social__icon--tw {
+    background-image: url("../images/Twitter.svg");
+}
+
+.gs-social__icon--in {
+    background-image: url("../images/LinkedIn.svg");
+}
+
+.gs-social__icon--yt {
+    background-image: url("../images/Union.svg");
+}
+
+
+.gs-pay {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.gs-pay__logo {
+    width: 55px;
+    height: 22px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+/* поставь свои файлы */
+.gs-pay__logo {
+    background-image: url("../images/payment.svg");
+}
+.gs-pay__logo {
+    display: block;
+    width: 240px;
+    /* ширина как в макете */
+    height: 28px;
+    /* высота (подгони: 24-32) */
+    background-image: url("../images/payment.svg");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+}
+
+.gs-footer__bottom {
+    text-align: center;
+    padding: 14px 0 0;
+    font-size: 14px;
+    color: #727272;
+}
